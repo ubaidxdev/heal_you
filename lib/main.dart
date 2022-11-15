@@ -8,6 +8,7 @@ import 'package:heal_you/Features/01_welcom_page/welcome_page.dart';
 import 'package:heal_you/Features/07_sign_in/sigin_in.dart';
 import 'package:heal_you/Features/09_verifiation/verification.dart';
 import 'package:heal_you/Features/10_change_password/change_password.dart';
+import 'package:heal_you/Features/12_landing_page/fluid_nav_bar.dart';
 import 'package:heal_you/Features/12_landing_page/main_page.dart';
 
 void main() async {
@@ -32,7 +33,9 @@ class MyApp extends StatelessWidget {
             textTheme:
                 GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
           ),
-          home: LandingScreen(),
+          home:
+              //  FlutterBottomBarView()
+              LandingScreen(),
         );
       },
     );
